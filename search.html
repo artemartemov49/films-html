@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/main.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"></script>
+
+  <title>Films</title>
+</head>
+<body>
+<header class="bg-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">DreamUA</a>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Серіали</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Фільми</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Мультфільми</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">У кіно</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Пошук</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="container-fluid row mt-3">
+  <div class="list-group col-2">
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Бойовики</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Драма</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Пригодницькі</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Історичні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Комедія</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Романтичні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Військові</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Спортивні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Документальні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Біографічні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Трилер</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Мелодрама</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Сімейні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Жахів</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Фантастичні</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Вестрн</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Кримінал</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Фентазі</a>
+    <a href="#" class="list-group-item list-group-item-action ps-5 side-bar">Українські</a>
+  </div>
+  <div class="container col-9">
+    <h3 class="text-light">Сортування:</h3>
+    <div class="row mb-4">
+        <label for="year" class="col-sm-2 col-form-label text-light">Оберіть рік:</label>
+        <div class="col-sm-3">
+          <input class="form-control" type="date" id="year">
+        </div>
+        <label for="film" class="col-sm-2 col-form-label text-light">Оберіть категорію:</label>
+        <div class="col-sm-3">
+          <select class="form-select" aria-label="Select genre" id="film">
+            <option value="1">Бойовики</option>
+            <option value="2">Драма</option>
+            <option value="3">Пригодницькі</option>
+            <option value="3">Історичні</option>
+            <option value="3">Комедія</option>
+            <option value="3">Романтичні</option>
+            <option value="3">Військові</option>
+            <option value="3">Спортивні</option>
+            <option value="3">Документальні</option>
+            <option value="3">Біографічні</option>
+            <option value="3">Трилер</option>
+            <option value="3">Мелодрама</option>
+            <option value="3">Сімейні</option>
+            <option value="3">Жахів</option>
+            <option value="3">Фантастичні</option>
+            <option value="3">Вестрн</option>
+            <option value="3">Кримінал</option>
+            <option value="3">Фентазі</option>
+            <option value="3">Українські</option>
+          </select>
+        </div>
+      <div class=" col-sm-2">
+        <button class="btn btn-primary col">Шукати</button>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="card p-0 bg-dark col-lg-2 m-md-2 mb-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+      <div class="card p-0 bg-dark col-lg-2 mb-2 m-md-2 rounded-3">
+        <img src="static/image/search/film.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center">Поганці</h5>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
