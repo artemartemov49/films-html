@@ -1,6 +1,6 @@
 <svg width="300" height="150" viewBox="0 0 300 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.5" y="1.5" width="297" height="147" fill="white" stroke="black" stroke-width="3"/>
-<rect x="1.5" y="26.5" width="297" height="97" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1.5" y="1.5" width="297" height="147" stroke="black" stroke-width="3"/>
+<rect x="1.5" y="26.5" width="297" height="97" stroke="black" stroke-width="3"/>
 <line x1="151.5" x2="151.5" y2="25" stroke="black" stroke-width="3"/>
 <line x1="271.5" x2="271.5" y2="25" stroke="black" stroke-width="3"/>
 <path d="M240 0V25" stroke="black" stroke-width="3"/>
